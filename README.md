@@ -2,4 +2,5 @@
 Source code for a weather app using React
 
 <img src="/GIF3.gif" width="800px"/>
-![](https://media.giphy.com/media/W4pAuX1pIvjN9CSkrO/giphy.gif)
+<img src="/GIF5.gif" width="800px"/>
+<img src="/GIF6.gif" width="800px"/>
