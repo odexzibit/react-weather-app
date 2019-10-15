@@ -1,0 +1,187 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300';
+html, body {
+  height: 100%;
+}
+body {
+  background:linear-gradient(130deg, #543958 0%,#a06060 25%,#bea27b 50%,#9ca898 75%,#506d8d 100%) no-repeat center center fixed;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.some {
+  margin-left: 60px;
+}
+
+li {
+  padding: 10px;
+  width: 600px;
+  height: 60px;
+  line-height: 60px;
+  background: white;
+  opacity: 0.7;
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  list-style-type: none;
+  position: relative;
+}
+
+#clear {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li img {
+  width: 50px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+li:hover, input[type="submit"]:hover, input[type="text"]:hover, button:hover {
+  opacity: 0.9;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all linear .10s;
+}
+input[type="text"]:focus  {
+  opacity: 1;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  outline:none;
+  transition: all linear .10s;
+}
+
+input[type="submit"]:active, button:active {
+  opacity: 0.5;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  outline: none ;
+  transition: all linear .10s;
+}
+
+li:target {
+  height: 150px;
+}
+li:active {
+  opacity: 0.7;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.cold {
+  background: blue;
+}
+
+.degrees {
+  font-size: 2.7rem;
+  font-weight: 300;
+  line-height: 1;
+}
+.degrees:after {
+   content: '\00b0';
+}
+
+input[type="text"] {
+  opacity: 0.7;
+  width: 220px;
+  padding: 13px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin-right: 20px;
+}
+
+input[type="submit"], button {
+  padding: 13px;
+  opacity: 0.7;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 150px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+
+.addCityBlock {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+ul {
+  padding:0;
+  margin: 0;
+}
+
+.fade-enter {
+  opacity: 0;
+  top: -200px;
+}
+.fade-enter-active{
+  opacity: 0.7;
+  transition: .3s ease-out all;
+  top: 0;
+}
+.fade-leave {
+  opacity: 0.7;
+  top: 0;
+}
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  top: 200px;
+  transition: .3s ease-in all;
+}
+.fade-appear {
+  opacity: 0;
+}
+.fade-appear-active {
+  opacity: 0.7;
+  transition: opacity 1s ease-out;
+}
+
+.clicked {
+  height: 150px;
+}
+
+.newClose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.newClose::before, .newClose::after {
+  content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    background: #000;
+    border-radius: 100%;
+    opacity: 0.7;
+}
+
+.newClose::before {
+  transform: rotate(45deg);
+}
+
+.newClose::after {
+  transform: rotate(-45deg);
+}
+.newClose:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.newClose:hover::before, .newClose:hover::after {
+   opacity: 1;
+}
