@@ -10,13 +10,14 @@ Clone the react-weather-app repository
 
 then to grab the dependencies run
 
-<pre>`npm install`</pre>
+<pre>npm install</pre>
 
 run the project with development mode
 
-`npm run build`
+<pre>npm run build</pre>
 
-navigate to: http://localhost:1234
+navigate to: 
+<pre>http://localhost:1234</pre>
 
 ### The application is able to:
 * Add / remove cities
