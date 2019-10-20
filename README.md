@@ -16,8 +16,7 @@ run the project with development mode
 
 <pre>npm run build</pre>
 
-navigate to: 
-<pre>http://localhost:1234</pre>
+navigate to: http://localhost:1234
 
 ### The application is able to:
 * Add / remove cities
