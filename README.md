@@ -4,8 +4,13 @@ Source code for a weather app using React, Webpack
 
 ## Features
 
+* Adding cities with temperature, humidity
 <img src="/GIF3.gif" width="800px"/>
+
+* Updating the state
 <img src="/GIF5.gif" width="800px"/>
+
+* Deleting city or all added cities
 <img src="/GIF6.gif" width="800px"/>
 
 ## Start the application
