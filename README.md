@@ -1,5 +1,5 @@
 # react-weather-app
-Source code for a weather app using React
+Source code for a weather app using React, Webpack
 
 <img src="/GIF3.gif" width="800px"/>
 <img src="/GIF5.gif" width="800px"/>
@@ -17,3 +17,8 @@ run the project with development mode
 `npm run build`
 
 navigate to: http://localhost:1234
+
+### The application is able to:
+* Add / remove cities
+* Save data locally
+* Automatically request the weather according to the coordinates of the user
