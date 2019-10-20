@@ -5,7 +5,7 @@ Source code for a weather app using React, Webpack
 <img src="/GIF5.gif" width="800px"/>
 <img src="/GIF6.gif" width="800px"/>
 
-### Start the application
+## Start the application
 Clone the react-weather-app repository
 
 <pre>$ git clone https://github.com/odexzibit/react-weather-app.git</pre>
@@ -20,7 +20,7 @@ run the project with development mode
 
 navigate to: http://localhost:1234
 
-### The application is able to:
+## The application is able to:
 * Add / remove cities
 * Save data locally
 * Automatically request the weather according to the coordinates of the user
