@@ -10,7 +10,7 @@ Clone the react-weather-app repository
 
 then to grab the dependencies run
 
-`npm install`
+<pre>`npm install`</pre>
 
 run the project with development mode
 
