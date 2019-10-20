@@ -1,5 +1,8 @@
 # react-weather-app
+
 Source code for a weather app using React, Webpack
+
+## Features
 
 <img src="/GIF3.gif" width="800px"/>
 <img src="/GIF5.gif" width="800px"/>
