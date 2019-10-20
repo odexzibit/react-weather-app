@@ -6,7 +6,9 @@ Source code for a weather app using React, Webpack
 <img src="/GIF6.gif" width="800px"/>
 
 ### Start the application
-Clone the react-weather-app repository  
+Clone the react-weather-app repository
+
+<pre>$ git clone https://github.com/odexzibit/react-weather-app.git</pre>
 
 then to grab the dependencies run
 
