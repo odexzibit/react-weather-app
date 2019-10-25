@@ -5,13 +5,13 @@ Source code for a weather app using React, Webpack
 ## Features
 
 * Adding cities with temperature, humidity
-<img src="/GIF3.gif" width="800px"/>
+<img src="GIFs/GIF3.gif" width="800px"/>
 
 * Updating the state (every 5 minutes the data is automatically updated without reloading the page)
-<img src="/GIF5.gif" width="800px"/>
+<img src="GIFs/GIF5.gif" width="800px"/>
 
 * Deleting city or all added cities
-<img src="/GIF6.gif" width="800px"/>
+<img src="GIFs/GIF6.gif" width="800px"/>
 
 ## Start the application
 Clone the react-weather-app repository
